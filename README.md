@@ -1,8 +1,3 @@
-# 모바일 청첩장 React.js 템플릿
-
-결혼식 초대를 위한 청첩장 템플릿입니다.  
-이 저장소가 마음에 들거나 사용하게 되신다면, Star와 Fork 부탁드리겠습니다😉
-
 ## 👰🏻‍♀️ 미리 보기
 
 https://wedding-templete.netlify.app/
@@ -16,9 +11,19 @@ https://wedding-templete.netlify.app/
 
 ## 🚘 시작하기
 
-1. `$ cd WEDDING_INVITATION` - 해당 프로젝트 폴더로 이동
-2. `$ npm install` - 디펜던시 설치
-3. `$ npm start` - 로컬로 실행
+node.js 버전 : 20.15.1  
+npm     버전 : 10.8.2
+
+1. `$ cd wedding_invitation` -> 해당 프로젝트 폴더로 이동
+2. `$ npm install ` -> 디펜던시 설치
+3. `$ npm start` -> 로컬로 실행
+
+if) npm install 에러 발생 시
+1. `$ npm install --package-lock-only`
+2. `$ npm audit fix`
+3. `$ npm install`
+
+
 
 ## 🔧 Netlify로 만들기
 
